@@ -1,0 +1,25 @@
+.App {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.quote{
+  border:2px solid teal;
+  padding: 2rem;
+}
+
+.quote p:nth-child(1){
+  color: orange;
+}
+
+.quote p:nth-child(2){
+  color: teal;
+  font-weight: 800;
+}
+
+.quotes-container{
+  display: flex;
+  gap:2rem;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
