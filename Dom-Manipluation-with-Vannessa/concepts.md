@@ -2,7 +2,7 @@
 
 #### Create an element
 ```js
-document.createElement('p')
+document.createElement('p') // <div></div>
 ```
 
 #### Delete an element
@@ -21,7 +21,7 @@ querySelector() // chooses and element by id or classname selector or even the t
 
 #### Add element to the DOM
 ```js
-parentElement.appendChild()
+parentElement.appendChild("pass in the element")
 ```
 
 ------------------------------
@@ -39,7 +39,7 @@ Here are of common browser events;
 
 example;
 ```js
-p.addEventListener(event, callbackfunction)
+element.addEventListener(event, callbackfunction)
 ```
 
 
