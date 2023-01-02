@@ -1,0 +1,29 @@
+h1{
+    color: teal;
+    border: 2px solid orangered;
+    text-align: center;
+}
+
+/* small screen, Phones */
+/* from 0px - 425px */
+@media screen and (max-width: 425px){
+    h1{
+        color: green;
+        font-family: 'Courier New', Courier, monospace;
+        border: none;
+        font-size: 50px;
+    }
+}
+
+/* Tablet screens */
+/* from 426px - 768px */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    h1{
+        color: purple;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: overline;
+        text-align: left;
+        border: none;
+    }
+}
+
